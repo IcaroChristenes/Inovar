@@ -36,6 +36,19 @@
 }
 
 /* Smooth scroll */
+.col-lg-6{
+  width: 100%; 
+  height: 100%; 
+  overflow: hidden; 
+}
+
+.col-lg-6 img{
+
+  width: 100%;
+  object-fit: cover;
+
+}
+
 :root {
   scroll-behavior: smooth;
 }
@@ -2027,6 +2040,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
+/* .starter-section { */
   /* Add your styles here */
-}
+/* } */
